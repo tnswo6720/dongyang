@@ -6,13 +6,8 @@
 <body>
     <h1>Data Analysis</h1>
 
-    <!-- 데이터 요약 -->
-    <h2>Summary</h2>
-    <pre>{{ summary }}</pre>
-
-    <!-- 시각화 그래프 -->
-    <h2>Histogram</h2>
-    <img src="data:image/png;base64,{{ plot_url }}">
+    <button onclick="location.href='/analyze/gender'">성별</button>
+    <button onclick="location.href='/analyze/age'">나이</button>
+    <button onclick="location.href='/analyze/race'">인종</button>
 </body>
 </html>
-
